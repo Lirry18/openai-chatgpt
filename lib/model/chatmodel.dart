@@ -14,6 +14,8 @@ class ChatModel extends ChangeNotifier {
 
     Map<String, dynamic> response =
         await OpenAiRepository.sendMessage(prompt: txt);
+
+    print(response.toString());
     String text = response['choices'][0]['text'];
     //remove the last item
     messages.removeLast();

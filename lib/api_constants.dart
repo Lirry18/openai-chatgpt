@@ -1,2 +1,2 @@
 const endpoint = "https://api.openai.com/v1/";
-const aiToken = "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";
+const aiToken = "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";
